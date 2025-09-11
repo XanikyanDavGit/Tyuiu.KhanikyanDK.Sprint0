@@ -11,7 +11,9 @@ namespace Tyuiu.KhanikyanDK.Sprint0.Task2.V0.Test
         public void CheckGetMessageValid()
         {
             var name = "Davo";
+
             var res = DataService.GetMessage(name);
+
             Assert.AreEqual("Привет, Davo", res);
         }
     }
