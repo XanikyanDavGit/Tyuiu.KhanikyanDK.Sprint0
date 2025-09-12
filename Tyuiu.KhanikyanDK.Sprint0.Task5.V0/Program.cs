@@ -11,10 +11,11 @@ namespace Tyuiu.KhanikyanDK.Sprint0.Task4.V0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DataService.Addition(42, 48));
-            Console.WriteLine(DataService.Subtraction(42, 48));
-            Console.WriteLine(DataService.Multiplication(42, 48));
-            Console.WriteLine(DataService.Division(44, 8));
+            Console.WriteLine("A + B = " + DataService.Addition(42, 48));
+            Console.WriteLine("A - B = " + DataService.Subtraction(42, 48));
+            Console.WriteLine("A * B = " + DataService.Multiplication(42, 4));
+
+            Console.WriteLine("A / B = " + DataService.Division(4, 2));
             Console.ReadKey();
         }
     }
